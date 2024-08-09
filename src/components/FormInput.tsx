@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import { flushSync } from 'react-dom'
 
-// import { useTodoDispatchContext } from '../hooks/useDispatchContext'
+import { useTodoDispatchContext } from '../hooks/useDispatchContext'
 
 export const FormInput = () => {
   const [todoValue, setTodoValue] = useState('')
