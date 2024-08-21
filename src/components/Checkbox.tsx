@@ -1,7 +1,7 @@
 import * as RadixCheckbox from '@radix-ui/react-checkbox'
 import { Check } from 'lucide-react'
 
-export const checkbox = ({
+export const Checkbox = ({
     checked,
     onCheckedChange,
 }: {
